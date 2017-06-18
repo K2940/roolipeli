@@ -32,8 +32,8 @@ namespace roolipeli
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            //e.Graphics.FillRectangle(Brushes.DarkViolet, _x, _y, 100,100);
-            e.Graphics.DrawImage(new Bitmap("fenxprofiili2.5.png") , _x, _y, 100, 100);
+            e.Graphics.FillRectangle(Brushes.DarkViolet, _x, _y, 100,100);
+            //e.Graphics.DrawImage(new Bitmap("fenxprofiili2.5.png") , _x, _y, 100, 100);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
